@@ -1,0 +1,5 @@
+# Function dependencies, for example:
+# package>=version
+
+pandas==0.24.1
+scikit_learn==0.20.2

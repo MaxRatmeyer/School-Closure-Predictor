@@ -1,0 +1,77 @@
+<head>
+  <title>School Closure Predictor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+    body {
+      background-color: white;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: black;
+      font-family: 'Oxygen', serif;
+    }
+
+    h1 {
+      font-size: 450%;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 400%;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 350%;
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 300%;
+    }
+
+    h5 {
+      font-size: 250%;
+    }
+
+    h6 {
+      font-size: 200%;
+      text-align: center;
+    }
+
+    p {
+      color: black;
+      font-family: 'Oxygen', serif;
+      font-size: 150%;
+    }
+
+    footer {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <h3>The algorithm predicts:</h3>
+  <h1><font color="{{color}}">{{prediction}}</font></h1>
+  <h3>Henry County Schools {{willwillnot}} be cancelled tomorrow.</h3>
+  <div align="center">
+    <h6>Last Refreshed: {{datetime}}</h6>
+  </div>
+  <br>
+  <h6>About this Website:</h6>
+  <p>This is a school closure predictor for Henry County Schools using machine learning. Based off current forecasted weather data, the algorithm predicts whether or not school will be closed the next day.</p>
+  <p>For more information about this project, see the research paper <a href="https://assets.maxratmeyer.com/science-fair/Research%20Paper.pdf">here</a>.</p>
+</body>
+
+<footer>
+  <br>
+  <p>© Max Ratmeyer 2019. This website is unrelated to Henry County Schools. For official school closing announcements see the <a href="https://schoolwires.henry.k12.ga.us/">Henry County Schools website</a>. Weather data powered by Dark Sky.</p>
+</footer>

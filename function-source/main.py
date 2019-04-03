@@ -12,7 +12,7 @@ import urllib.request
 import urllib.parse
 
 # Load dataset
-url = "https://storage.googleapis.com/school-closure-predictor/closuredata.csv"
+url = "https://storage.googleapis.com/assets.maxratmeyer.com/science-fair/hotlink-ok/closuredata.csv"
 names = [
     'precipIntensity', 'precipIntensityMax', 'precipProbability', 'precipType',
     'temperatureHigh', 'temperatureLow', 'dewPoint', 'humidity', 'pressure',
